@@ -7,6 +7,7 @@ import React, { Component } from "react";
 // Math.round(Math.random() * 255) + ')'];
 // var random_color = colors[Math.floor(Math.random() * colors.length)];
 
+
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -85,7 +86,7 @@ export default class App extends Component {
             }}
           >
             <div className="countdiv">
-              <h1>Count: {this.state.count}</h1>
+              <h1>Count {this.state.count}</h1>
             </div>
             <button onClick={this.minus}>-</button>
             <button onClick={this.changeColor}>Change Color</button>
