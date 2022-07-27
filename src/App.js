@@ -2,11 +2,6 @@ import "./App.css";
 
 import React, { Component } from "react";
 
-// var colors = ['rgb(' + Math.round(Math.random() * 255) + ',' +
-// Math.round(Math.random() * 255) + ',' +
-// Math.round(Math.random() * 255) + ')'];
-// var random_color = colors[Math.floor(Math.random() * colors.length)];
-
 
 export default class App extends Component {
   constructor(props) {
@@ -98,14 +93,7 @@ export default class App extends Component {
   }
 }
 
-// export default App;
-// function App() {
-//   const [changeColor, setChangeColor] = useState(false)
 
-//   const handleChangeColor = () => {
-//     setChangeColor(true)
-//     // console.log('color is changed')
-// }
 
 //   render (){
 //     <div className="App">
